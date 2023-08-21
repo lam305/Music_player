@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music for you</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- link font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="dashboard">
+        <div class="header">
+          Now playing:
+          <div class="name-song"></div>
+          <div class="singer"></div>
+        </div>
+
+        <div class="cd">
+          <div class="cd-round">
+            <img class="img" src="" alt="" />
+          </div>
+        </div>
+        <!-- controler -->
+        <div class="button">
+          <div class="button-item repeat-song">
+            <i class="fa-solid fa-arrow-rotate-right"></i>
+          </div>
+          <div class="button-item rewind">
+            <i class="fa-solid fa-backward-fast"></i>
+          </div>
+          <div class="button-item pre-song">
+            <i class="fa-solid fa-backward-step"></i>
+          </div>
+          <div id="play" class="button-item play">
+            <i class="fa-solid fa-play"></i>
+          </div>
+          <div class="button-item next-song">
+            <i class="fa-solid fa-forward-step"></i>
+          </div>
+          <div class="button-item rewind">
+            <i class="fa-solid fa-forward-fast"></i>
+          </div>
+          <div class="button-item random-song">
+            <i class="fa-solid fa-shuffle"></i>
+          </div>
+        </div>
+        <!-- hiện thị nhạc chạy -->
+        <input id="progress" type="range" value="0" />
+        <audio
+          id="audio"
+          src="./assets/music/ChimBayCungVe-NhamNhien-6321767.mp3"
+          controls
+        ></audio>
+      </div>
+
+      <!-- list nhạc -->
+      <div class="list-music"></div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/964b309b43.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
