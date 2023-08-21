@@ -89,7 +89,7 @@ const app = {
       name: "Sài Gòn hôm nay mưa",
       singer: "Hoàng Duyên",
       path: "./assets/music/saigonhomnaymua.mp3",
-      image: "./assets/image/imgs-song/SGhomnaymua.jpeg",
+      image: "./assets/image/imgs-song/saigonhomnaymua.webp",
     },
     {
       name: "Thế Thôi",
